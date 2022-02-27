@@ -1,14 +1,21 @@
 # youtube-dl_script
-Windows batch file with template config files for archiving YouTube channels.
+Windows Powershell script file with template config files for archiving YouTube channels locally.
 
 ## How To Get This Working
-First of all, this script is made for Windows as it is a batch file. The config files and folder structure will be the same on a Linux machine, but you will have to make your own shell script or something similar. 
+Before you do anything, please be aware that this script is made for Windows as it is a Powershell script file. The config files and folder structure will be the same on a Linux machine, but you will have to make your own shell script or something similar. It should end up very similar to the one here.
 
-Second, the batch file provided here is the exact one I use, and I have a Windows VM running on my NAS, and everything gets downloaded to the NAS storage (which is running unRAID). As such, I have the contents of this repository on the NAS itself, then using Windows scheduler I have the VM run a batch file whose only job is to run the main batch file on my NAS. I know that seems a little convoluted, but it was the only way I could find to keep the script file on my NAS, but use it in the VM. You probably won't need to bother with this, the only reason I have it that way is to modify the script from whatever computer I want, but I set this up a long time ago before I simplified the batch file by separating the config files. If your setup is simpler you will probably want to remove a couple sections from the batch file that are used to mount and unmount the SMB share. These sections are labeled in the file. 
-
-Third, you should change the config files to fit your needs, and add whatever channels you wish to archive to the channel list files.
-
-Lastly, you will need to download youtube-dl and ffmpeg and place them into the same folder as the batch file. Then you can run the batch file.
+Once you are ready, follow these steps:
+1. Download/clone this repository. The easiest way to do this is to go to **Code** above, then click **Download ZIP**.
+2. Find a location where you want to store your archive. For me, this is on my NAS in 'Videos/Youtube'. Extract (if needed), and place the contents of this repository there. Using my example, my folder structure would look like:
+    *Videos/Youtube/zzz_ytdl_settings
+    *Videos/Youtube/youtube-dl-scripts.ps1
+3. Download yt-dlp and ffmpeg and place them into the folder next to the script file. As long as youtube-dl is working, you can also use this, but you will have to fix the script file to not use yt-dlp. However, I **__highly__** recommend making the switch to yt-dlp. See the **Links** section below for links to these. Your folder structure should now be:
+    *Videos/Youtube/zzz_ytdl_settings
+    *Videos/Youtube/youtube-dl-scripts.ps1
+    *Videos/Youtube/yt-dlp.exe
+    *Videos/Youtube/ffmpeg.exe
+4. Configure the files in 'zzz_ytdl_settings' to your needs! Feel free to add/remove/modify these files however you see fit. Unless you really know what you're doing, I'd recommend leaving the '.conf' files alone **__except to add specific playlists that shouldn't be downloaded!__** See the section below on how to accomplish this. The main thing you will need to modify is the 'ChannelList' files. I've left in a few examples of channels I back up in order to give you an idea on how I keep things organized. Keep in mind that the # character at the start of a line denotes a comment and the script will ignore that line.
+5. **__IMPORTANT!__** Set up automation. Even if you want to manually run this script, please read this carefully. As is, this script is expecting the 'youtube-dl_script.ps1' file to be located directly in the 'Z:' drive. 
 
 ## Misc Info
 #### Config Files
@@ -20,10 +27,16 @@ You can change this to whatever you want, just be sure to update the batch file 
 #### Playlist Filtering
 Sometimes a channel will have playlists that are quite annoying to deal with. For example, it may have a playlist that the channel owner puts every video they make into as well as adding them to other playlists. In the config files I currently only have it filtering out playlists named 'liked videos' and 'favorites' since those are common ones I don't want to archive, but if you want to filter out specific playlists I've had better luck filtering out by playlist ID instead of by name. Please read the youtube-dl documentation in order to better understand what all you can do here, but just as an example of what you need to add to the config file, here is the --match-filter line modified to filter out a specific playlist (remove the outer quotes if you copy this): "--match-filter "playlist_title != 'Liked videos' & playlist_title != 'Favorites' & playlist_id != 'PLQDcEvx09tHGnoesAV_gy2wS9jf2R3uA8'"".
 
-## Other Resources
-Please check out the youtube-dl documentation: https://github.com/ytdl-org/youtube-dl
+## Links
+yt-dlp: #########
+ffmpeg: #########
+
+yt-dlp documentation in case you need to modify the config files: ########
 
 For a similar project (and one that will be better maintained than this one), check out TheFrenchGhosty's project: https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-Archivist-Scripts
 
 ## Future Plans
-Many people have asked me if I plan on improving upon this and making something with a UI kind of like Sonarr/Radarr. To that I would say I would love to, but I have very little programming experience pertaining to that kind of development. That said, I have been taking an interest in it lately, but IF (NOT when) it ever happens, it would be awhile out and would probably never be as polished and nice as Sonarr and the like. There is just so much to figure out and not enough time to learn. 
+This is now the 3rd or 4th iteration of my setup and I am extremly happy with how it works now. However, if I make any major changes, I'll try my best to update this repository.
+
+## Changelog
+02-27-2022: Updated repository to v2, which swapped youtube-dl to yt-dlp and made some fairly significant improvements to the config files. Namely, vastly improving runtime when it comes to handling filtered playlists, and fixing channel folder naming, which should no longer create 2 separate channel folders when downloading playlists and no playlists. Also switched from a batch file to a Powershell script.

@@ -5,7 +5,8 @@
 
 ## Change Directory ##
 
-cd Z:/
+#---UNCOMMENT AFTER YOU CUSTOMIZE, READ README FOR MORE INFO---
+#cd Z:/
 
 
 ## Update ##
