@@ -1,56 +1,50 @@
-## Add all channel links here, be sure to use the link to the channel's "playlists" page.
+## Add all channel links here, be sure to use the link to the channel's "playlists" page. If they have multiple cattegories other than "Created Playlists", then consider only adding "Created Playlists".
 
 ## Anime ##
 
+#	Scamboli Reviews
+https://www.youtube.com/c/ScamboliReviews/playlists
 
 
 ## Gaming ##
 
-#	The Completionist
-https://www.youtube.com/user/ThatOneVideoGamer/playlists
 #	videogamedunkey
 https://www.youtube.com/user/videogamedunkey/playlists
 
 
 ## Food ##
 
-#	Bon Appetit
-https://www.youtube.com/user/BonAppetitDotCom/playlists
 
 
 ## Funny ##
 
-#	Jaboody Dubs
-https://www.youtube.com/user/Jabo0odyDubs/playlists
-#	LiteralMSPaint
-https://www.youtube.com/user/LiteralMSPaint/playlists
+#	Internet Historian
+https://www.youtube.com/channel/UCR1D15p_vdP3HkrH8wgjQRw/playlists?view=1&sort=dd&shelf_id=0
+https://www.youtube.com/c/InternetHistorianIncognitoMode/playlists
 
 
 ## Informational ##
 
-#	Applied Science
-https://www.youtube.com/user/bkraz333/playlists?view=1&sort=dd&shelf_id=0
+#	Spaceinvader One
+https://www.youtube.com/channel/UCZDfnUn74N0WeAPvMqTOrtA/playlists?view=1&sort=dd&shelf_id=0
 #	Vsauce
 https://www.youtube.com/user/Vsauce/playlists
 
 
 ## Misc ##
 
-#	ThingsICantFindOtherwise
-https://www.youtube.com/channel/UCm6CzMdSu3zaGfjs9yTcUsQ/playlists
+#	This is Dan Bell.
+https://www.youtube.com/user/moviedan/playlists
 
 
 ## Music ##
 
-#	Smooth McGroove
-https://www.youtube.com/user/SmoothMcGroove/playlists?view=1&sort=dd&shelf_id=0
 
 
 ## Scary ##
 
-#	Fredrik Knudsen
-https://www.youtube.com/channel/UCbWcXB0PoqOsAvAdfzWMf0w/playlists
 #	MamaMax
 https://www.youtube.com/channel/UCpofQJ6RpHrxuUG4ghXPJBA/playlists
 #	Nexpo
 https://www.youtube.com/channel/UCpFFItkfZz1qz5PpHpqzYBw/playlists
+

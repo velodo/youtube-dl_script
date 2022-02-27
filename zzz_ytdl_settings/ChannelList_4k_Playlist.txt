@@ -1,7 +1,9 @@
-## Add all channel links here, be sure to use the link to the channel's "playlists" page.
+## Add all channel links here, be sure to use the link to the channel's "playlists" page. If they have multiple cattegories other than "Created Playlists", then consider only adding "Created Playlists".
 
 ## Gaming ##
 
+#	Valve
+https://www.youtube.com/user/Valve/playlists
 
 
 ## Informational ##
@@ -14,4 +16,7 @@
 
 ## Food ##
 
+#	Bon Appetit
+#		It's Alive with Brad
+https://www.youtube.com/watch?v=OUmPBRxNPnQ&list=PLKtIunYVkv_SUyXj_6Fe53okfzM9yVq1F
 

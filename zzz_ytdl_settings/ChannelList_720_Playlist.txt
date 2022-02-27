@@ -1,4 +1,4 @@
-## Add all channel links here, be sure to use the link to the channel's "playlists" page.
+## Add all channel links here, be sure to use the link to the channel's "playlists" page. If they have multiple cattegories other than "Created Playlists", then consider only adding "Created Playlists".
 
 ## Anime ##
 
@@ -10,6 +10,38 @@
 
 ## Informational ##
 
+#	Tested
+https://www.youtube.com/playlist?list=PLJtitKU0CAehVwewqUdsYrDqg9Kp1jQvj
+https://www.youtube.com/playlist?list=PLJtitKU0CAegGi2QUH6ywt4EkjcR0jVam
+https://www.youtube.com/playlist?list=PLJtitKU0CAeh5npEyK41Cmeyfpkagblpu
+https://www.youtube.com/playlist?list=PLJtitKU0CAehQ6kWmgInz-VznOcL1PD8w
+https://www.youtube.com/playlist?list=PLJtitKU0CAegwL_3j59S7_93IEzvhYcDR
+https://www.youtube.com/playlist?list=PLJtitKU0CAeijYFoPJQ9eUcxDZUrpST4n
+https://www.youtube.com/playlist?list=PLJtitKU0CAeics7-6UluA8hT_dw69J_aq
+https://www.youtube.com/playlist?list=PLJtitKU0CAehkEO_2bwU6kU59_HvQMb30
+https://www.youtube.com/playlist?list=PLJtitKU0CAejQuQZYS49uPHeNLfxn3BkF
+https://www.youtube.com/playlist?list=PLJtitKU0CAehZvjWwBTts0wnnB5xyjOUV
+https://www.youtube.com/playlist?list=PLJtitKU0CAehsdcybehbPFHObmWsKtQcY
+https://www.youtube.com/playlist?list=PLFB2E9AF0D99D2B56
+https://www.youtube.com/playlist?list=PLJtitKU0CAeiFIQUX81qqt4laVWfa-Gtz
+https://www.youtube.com/playlist?list=PLJtitKU0CAehaZdgrPRzjyGFSEQ8URiQl
+https://www.youtube.com/playlist?list=PLJtitKU0CAeibKjWRsIIGQ8m_aeVXoDUA
+https://www.youtube.com/playlist?list=PLJtitKU0CAegxRA5Qjut9xbB7EXCQUEAO
+https://www.youtube.com/playlist?list=PLJtitKU0CAeh8u8i8-XcmT0ZlSwnvfERe
+https://www.youtube.com/playlist?list=PLJtitKU0CAej72E_qVAlH5Q9LaCDmNuaX
+https://www.youtube.com/playlist?list=PLJtitKU0CAejAaw7ZSM9gxwo-zrkzMwld
+https://www.youtube.com/playlist?list=PLJtitKU0CAehZtM5dZRdsW3ementwGP4u
+https://www.youtube.com/playlist?list=PLJtitKU0CAeg1MKbaWr0WVpdVy043OV5m
+https://www.youtube.com/playlist?list=PLJtitKU0CAeiJ7tjkIqcrRPfIYZHPW643
+https://www.youtube.com/playlist?list=PLJtitKU0CAeix7JwDrP90IVlgUsF29EhO
+https://www.youtube.com/playlist?list=PLJtitKU0CAeiSaOCVZJDEyzx5nzZaXRJi
+https://www.youtube.com/playlist?list=PLJtitKU0CAehLdbKTfk8EPb6nvy1KSC3X
+https://www.youtube.com/playlist?list=PLJtitKU0CAegGsD_WThLa3Op5oeqKkigq
+https://www.youtube.com/playlist?list=PLJtitKU0CAej22ZWBqrimPkn0Bbo6ci-r
+https://www.youtube.com/playlist?list=PLJtitKU0CAei-uJ8AKvTeU3zkXq4yyjoB
+https://www.youtube.com/playlist?list=PLJtitKU0CAehZvjWwBTts0wnnB5xyjOUV
+https://www.youtube.com/playlist?list=PLJtitKU0CAeiN0y8Pxt2NnY1FPZnYvexe
+https://www.youtube.com/playlist?list=PLBF47FA02AFEE833D
 
 
 ## Interesting ##
@@ -21,6 +53,5 @@
 
 
 ## Food ##
-
 
 
